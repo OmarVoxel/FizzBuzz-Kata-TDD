@@ -6,7 +6,10 @@ namespace FizzBuzz
     {
         public string FizzBuzz(int num)
         {
-            return "1";
+            if (num == 1)
+                return "1";
+
+            return 2
         }
     }
 }

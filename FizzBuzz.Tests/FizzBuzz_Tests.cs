@@ -15,5 +15,15 @@ namespace FizzBuzz.Tests
 
             Assert.Equal("1", result);
         }
+
+        [Fact]
+        public void NumberIsTwo()
+        {
+            FizzBuzzClass fizzBuzz = new FizzBuzzClass();
+
+            string result = fizzBuzz.FizzBuzz(2);
+
+            Assert.Equal("1", result);
+        }
     }
 }
