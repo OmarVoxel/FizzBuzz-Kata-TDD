@@ -1,6 +1,4 @@
-using System;
 using Xunit;
-using FizzBuzz;
 
 namespace FizzBuzz.Tests
 {
@@ -23,7 +21,7 @@ namespace FizzBuzz.Tests
 
             string result = fizzBuzz.FizzBuzz(2);
 
-            Assert.Equal("1", result);
+            Assert.Equal("2", result);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace FizzBuzz
             if (num == 1)
                 return "1";
 
-            return 2
+            return "2";
         }
     }
 }
