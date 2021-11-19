@@ -34,7 +34,25 @@ namespace FizzBuzz.Tests
             Assert.Equal("Fizz", result);
         }
 
+        [Fact]
+        public void NumberIsFour()
+        {
+            FizzBuzzClass fizzBuzz = new FizzBuzzClass();
 
+            string result = fizzBuzz.FizzBuzz(4);
+
+            Assert.Equal("4", result);
+        }
+
+        [Fact]
+        public void NumberIsFive()
+        {
+            FizzBuzzClass fizzBuzz = new FizzBuzzClass();
+
+            string result = fizzBuzz.FizzBuzz(5);
+
+            Assert.Equal("Buzz", result);
+        }
 
     }
 }
