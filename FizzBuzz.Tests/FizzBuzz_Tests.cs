@@ -54,5 +54,15 @@ namespace FizzBuzz.Tests
             Assert.Equal("Buzz", result);
         }
 
+        [Fact]
+        public void NumberIsFifteen()
+        {
+            FizzBuzzClass fizzBuzz = new FizzBuzzClass();
+
+            string result = fizzBuzz.FizzBuzz(15);
+
+            Assert.Equal("FizzBuzz", result);
+        }
+
     }
 }
