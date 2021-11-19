@@ -6,10 +6,11 @@ namespace FizzBuzz
     {
         public string FizzBuzz(int num)
         {
-            if (num == 1)
-                return "1";
+            if (num == 3)
+                return "Fizz";
 
-            return "2";
+            return num.ToString();
+
         }
     }
 }

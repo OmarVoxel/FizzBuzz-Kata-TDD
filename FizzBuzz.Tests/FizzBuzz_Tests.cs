@@ -23,5 +23,18 @@ namespace FizzBuzz.Tests
 
             Assert.Equal("2", result);
         }
+
+        [Fact]
+        public void NumberIsThree()
+        {
+            FizzBuzzClass fizzBuzz = new FizzBuzzClass();
+
+            string result = fizzBuzz.FizzBuzz(3);
+
+            Assert.Equal("Fizz", result);
+        }
+
+
+
     }
 }
